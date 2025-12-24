@@ -1,0 +1,17 @@
+{
+  "name": "dart-lsp",
+  "description": "Dart language server for Claude Code, providing code intelligence for Dart and Flutter projects",
+  "version": "1.0.0",
+  "author": {
+    "name": "jake"
+  },
+  "lspServers": {
+    "dart": {
+      "command": "/opt/homebrew/bin/dart",
+      "args": ["language-server"],
+      "extensionToLanguage": {
+        ".dart": "dart"
+      }
+    }
+  }
+}
