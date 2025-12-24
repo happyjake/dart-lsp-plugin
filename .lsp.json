@@ -1,7 +1,7 @@
 {
   "dart": {
-    "command": "/opt/homebrew/bin/dart",
-    "args": ["language-server"],
+    "command": "dart",
+    "args": ["language-server", "--protocol=lsp"],
     "extensionToLanguage": {
       ".dart": "dart"
     }
