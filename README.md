@@ -6,7 +6,7 @@ Dart language server for Claude Code, providing code intelligence for Dart and F
 
 `.dart`
 
-## Installation
+## Prerequisites
 
 The Dart SDK includes the language server. Install via:
 
@@ -23,6 +23,19 @@ brew install --cask flutter
 ```
 
 After installation, `dart` should be available in your PATH.
+
+## Usage
+
+**Important:** LSP support requires a specific Claude Code version and environment variable:
+
+```bash
+ENABLE_LSP_TOOL=true npx @anthropic-ai/claude-code@2.0.67 --plugin-dir /path/to/dart-lsp-plugin
+```
+
+Once running, you can use LSP features on `.dart` files:
+- Hover for type information
+- Go to definition
+- Find references
 
 ## More Information
 
